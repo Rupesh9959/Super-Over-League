@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.super-over-league-bg {
+  background-color: #0f172a;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.super-over-league-heading {
+  color: #f8fafc;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .super-over-league-heading {
+    color: #f8fafc;
+    font-family: "Roboto";
+    font-size: 35px;
+  }
+}
+
+.super-over-league-img {
+  height: 100px;
+  width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+  .super-over-league-img {
+    height: 150px;
+    width: 200px;
+  }
+}
